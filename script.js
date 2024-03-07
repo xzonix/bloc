@@ -8,8 +8,8 @@ function popup() {
 
     popupContainer.innerHTML = `
     <div id="popupContainer">
-        <h1>New Note</h1>
-        <textarea id="note-text" placeholder="Enter your note..."></textarea>
+        <h1>Nueva Nota</h1>
+        <textarea id="note-text" placeholder="Pone tu nota..."></textarea>
         <div id="btn-container">
             <button id="submitBtn" onclick="createNote()">Create Note</button>
             <button id="closeBtn" onclick="closePopup()">Close</button>
@@ -85,7 +85,7 @@ function editNote(noteId) {
     
     editingPopup.innerHTML = `
     <div id="editing-container" data-note-id="${noteId}">
-        <h1>Edit Note</h1>
+        <h1>Editar Nota</h1>
         <textarea id="note-text">${noteText}</textarea>
         <div id="btn-container">
             <button id="submitBtn" onclick="updateNote()">Done</button>
