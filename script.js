@@ -11,8 +11,8 @@ function popup() {
         <h1>Nueva Nota</h1>
         <textarea id="note-text" placeholder="Pone tu nota..."></textarea>
         <div id="btn-container">
-            <button id="submitBtn" onclick="createNote()">Create Note</button>
-            <button id="closeBtn" onclick="closePopup()">Close</button>
+            <button id="submitBtn" onclick="createNote()">Crear Nota</button>
+            <button id="closeBtn" onclick="closePopup()">Cerrar</button>
         </div>
     </div>
     `;
